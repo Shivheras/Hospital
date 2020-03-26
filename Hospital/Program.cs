@@ -162,18 +162,18 @@ namespace Hospital
                     Console.WriteLine("Teatments");
                     Console.WriteLine("1.Add Treatments");
                     Console.WriteLine("2.Remove Tretments");
-                    Console.WriteLine("3.Get Hospitles");
+                    Console.WriteLine("3.Get Treatment");
                     string caseString8 = Console.ReadLine();
                     switch (caseString8)
                     {
                         case "1":
-                            addepartment();
+                            addtreatment();
                             break;
                         case "2":
-                            removedepartment();
+                            removedTreatment();
                             break;
                         case "3":
-                            getdepartment();
+                            getTreatments();
                             break;
                         default:
                             Console.WriteLine("Value didn’t match earlier.");
@@ -184,18 +184,18 @@ namespace Hospital
                     Console.WriteLine("Drugs");
                     Console.WriteLine("1.Add Drugs");
                     Console.WriteLine("2.Remove Drugs");
-                    Console.WriteLine("3.Get Hospitles");
+                    Console.WriteLine("3.Get Drugs");
                     string caseString9 = Console.ReadLine();
                     switch (caseString9)
                     {
                         case "1":
-                            addepartment();
+                            addrug();
                             break;
                         case "2":
-                            removedepartment();
+                            removededrug();
                             break;
                         case "3":
-                            getdepartment();
+                            getdrug();
                             break;
                         default:
                             Console.WriteLine("Value didn’t match earlier.");
@@ -551,3 +551,4 @@ namespace Hospital
 
     }
 }
+
